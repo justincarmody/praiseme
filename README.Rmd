@@ -1,0 +1,39 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# praiseme
+
+The goal of praiseme is to ... deliver some lovely praise to brighten up your day
+
+## Installation
+
+You can install praiseme from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("justincarmody/praiseme")
+```
+
+## Example
+
+Here's an example of using praise() from praiseme
+
+```{r example}
+# You can give yourself praise
+library(praiseme)
+praise()
+
+# Or you can praise someone else
+praise("Liz")
+```
