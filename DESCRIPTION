@@ -1,0 +1,10 @@
+Package: praiseme
+Title: Makes You Feel Gud
+Version: 0.0.0.9000
+Authors@R: person("Justin", "Carmody", email = "carmodyj1@student.unimelb.edu.au", role = c("aut", "cre"))
+Description: Sends message of praise.
+Depends: R (>= 3.4.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
